@@ -26,7 +26,7 @@ def get_large_request(rowcount):
             time.sleep(.01)  # faster API return time.sleep(.001)
             txid = uuid.uuid4()  # generate universally unique identifiers as transaction id
             uid = uuid.uuid4()  # generate universally unique identifiers as user id
-            amount = round(random.uniform(-1100, 1100), 2)  # dollar amounts form -1000 to 1000
+            amount = round(random.uniform(-1100, 1100), 2)  # dollar amounts form -1100 to 1100
             print(txid, amount)  # out to console
             # txid = transaction id, uid = user id, amount = transaction amount
             yield f"('{txid}', '{uid}', {amount})\n"  # '\n' used as end of line indicator

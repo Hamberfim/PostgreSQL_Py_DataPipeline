@@ -22,7 +22,7 @@ with requests.get("http://127.0.0.1:5000/large_data_request/10", stream=True) as
 
     conn = psycopg2.connect(dbname="pseudo_data_stream_test",
                             user="postgres",
-                            password="[password]")
+                            password="[password]")  # changed on commit to github
     cur = conn.cursor()
     sql = "INSERT INTO transactions (txid, uid, amount) VALUES (%s, %s, %s)"
 
