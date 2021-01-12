@@ -4,4 +4,4 @@ It also flags large transactions in the console output that could be logged or t
 
 PostGreSQL resulting insert:
 
-[](https://github.com/Hamberfim/PostgreSQL_Py_DataPipeline/blob/master/transactions.jpg)
+![](https://github.com/Hamberfim/PostgreSQL_Py_DataPipeline/blob/master/transactions.jpg)
